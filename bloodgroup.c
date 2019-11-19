@@ -5,7 +5,7 @@ void main()
   int i;
   do
   {
-    printf("What is your Name sir??? ");
+    printf("What is your Name madamn? ");
     scanf("%s", Name);
     do
     {
@@ -24,12 +24,12 @@ void main()
     if (strcmp(G,"A") ==0) 
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
-      printf("  You can receive blood from: A, O.\n");
+      printf("  You can receive blood from: A, O. WOWWWWW\n");
     }
     else if (strcmp(G, "B") ==0) 
     {
       printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
-      printf("  You can receive blood from: B, O.\n");
+      printf("  You can receive blood from: B, O.WOWWWW\n");
     }
     else if (strcmp(G, "AB") == 0)
     {
@@ -44,5 +44,5 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
-  printf("Goodbye sir!!\n");
+  printf("Goodbye madamn\n");
 }
