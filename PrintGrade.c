@@ -19,7 +19,7 @@ void main()
       found_index = -1; 
       for (i = 0; i<N && found_index == -1; i++)
 
-        if (SearchID == ID[i])
+        if (SearchID != ID[i]) //change here from == -> !=
 
           found_index = i;
 

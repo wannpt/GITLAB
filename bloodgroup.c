@@ -21,12 +21,12 @@ void main()
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") !=0   &&
                             strcmp(G, "O") !=0 );
-    if (strcmp(G,"A") ==0)
+    if (strcmp(G,"A") !=0) // B is here. == -> !=
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
       printf("  You can receive blood from: A, O.\n");
     }
-    else if (strcmp(G, "B") ==0)
+    else if (strcmp(G, "B") !=0) // B lives here. == -> !=
     {
       printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
       printf("  You can receive blood from: B, O.\n");
